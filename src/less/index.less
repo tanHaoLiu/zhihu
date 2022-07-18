@@ -1,0 +1,21 @@
+// @bgcolor: rgb(19, 19, 18);
+// @width: 200px;
+// @height: 200px;
+// @color: #fff;
+
+// :export {
+//     name: "less";
+//     bgcolor: @bgcolor
+// }
+
+
+// 默认的主题颜色
+@primaryColor: var(--primaryColor, rgb(255, 255, 255));
+@primaryTextColor: var(--primaryTextColor, rgb(65, 55, 55));
+
+// 导出变量
+:export {
+    name: "less";
+    primaryColor: @primaryColor;
+    primaryTextColor: @primaryTextColor;
+}

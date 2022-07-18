@@ -1,0 +1,5 @@
+:export {
+  name: "less";
+  primaryColor: var(--primaryColor, #ffffff);
+  primaryTextColor: var(--primaryTextColor, #413737);
+}
